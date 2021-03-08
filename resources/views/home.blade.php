@@ -7,7 +7,7 @@
         <img class="rounded-circle" style="width:150px" class ="rounded mh-100px" src ="{{ asset('images/download.jpg') }}" alt="logo">  
         </div>
         <div class="col-md-9 p-5">
-        <h3> Technical Inventory </h3> 
+        <h3> {{$user->username}} </h3> 
         <div class= "d-flex">
     <div class="pr-5"> <strong> 14 </strong>posts</div>
     <div class="pr-5"> <strong> 10 </strong>followers</div>
